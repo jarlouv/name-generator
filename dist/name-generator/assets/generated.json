@@ -1,0 +1,275 @@
+[{
+    "age": 28,
+    "birthday": {
+      "dmy": "02/08/1991",
+      "mdy": "08/02/1991",
+      "raw": 681133481
+    },
+    "credit_card": {
+      "expiration": "6/26",
+      "number": "2152-9789-4617-4633",
+      "pin": 2252,
+      "security": 865
+    },
+    "email": "gabi-91@example.com",
+    "gender": "male",
+    "name": "Gabi",
+    "password": "Vernescu91$%",
+    "phone": "(117) 856 5570",
+    "photo": "https://uinames.com/api/photos/male/10.jpg",
+    "region": "Romania",
+    "surname": "Vernescu",
+    "title": "mr"
+  },
+  {
+    "age": 36,
+    "birthday": {
+      "dmy": "29/09/1983",
+      "mdy": "09/29/1983",
+      "raw": 433681170
+    },
+    "credit_card": {
+      "expiration": "10/23",
+      "number": "3946-6104-1816-2461",
+      "pin": 1798,
+      "security": 667
+    },
+    "email": "pamfil-83@example.com",
+    "gender": "male",
+    "name": "Pamfil",
+    "password": "Negoiță83)^",
+    "phone": "(142) 335 2266",
+    "photo": "https://uinames.com/api/photos/male/9.jpg",
+    "region": "Romania",
+    "surname": "Negoiță",
+    "title": "mr"
+  },
+  {
+    "age": 30,
+    "birthday": {
+      "dmy": "07/04/1989",
+      "mdy": "04/07/1989",
+      "raw": 607952901
+    },
+    "credit_card": {
+      "expiration": "9/20",
+      "number": "7620-9816-6414-6647",
+      "pin": 4643,
+      "security": 283
+    },
+    "email": "maham_89@example.com",
+    "gender": "female",
+    "name": "Maham",
+    "password": "Durrani89=(",
+    "phone": "(591) 755 2715",
+    "photo": "https://uinames.com/api/photos/female/19.jpg",
+    "region": "Pakistan",
+    "surname": "Durrani",
+    "title": "mrs"
+  },
+  {
+    "age": 23,
+    "birthday": {
+      "dmy": "23/03/1996",
+      "mdy": "03/23/1996",
+      "raw": 827560522
+    },
+    "credit_card": {
+      "expiration": "12/24",
+      "number": "6749-1071-9736-8547",
+      "pin": 3468,
+      "security": 625
+    },
+    "email": "júlia_lima@example.com",
+    "gender": "female",
+    "name": "Júlia",
+    "password": "Lima96{",
+    "phone": "(464) 899 3369",
+    "photo": "https://uinames.com/api/photos/female/8.jpg",
+    "region": "Brazil",
+    "surname": "Lima",
+    "title": "ms"
+  },
+  {
+    "age": 24,
+    "birthday": {
+      "dmy": "13/04/1995",
+      "mdy": "04/13/1995",
+      "raw": 797804338
+    },
+    "credit_card": {
+      "expiration": "4/23",
+      "number": "8902-8291-5245-8117",
+      "pin": 6798,
+      "security": 376
+    },
+    "email": "pereide@example.com",
+    "gender": "male",
+    "name": "Per",
+    "password": "Eide95{$",
+    "phone": "(617) 183 6698",
+    "photo": "https://uinames.com/api/photos/male/17.jpg",
+    "region": "Norway",
+    "surname": "Eide",
+    "title": "mr"
+  },
+  {
+    "age": 25,
+    "birthday": {
+      "dmy": "20/08/1994",
+      "mdy": "08/20/1994",
+      "raw": 777439907
+    },
+    "credit_card": {
+      "expiration": "12/21",
+      "number": "9674-3092-8767-3901",
+      "pin": 6541,
+      "security": 354
+    },
+    "email": "marten-allik@example.com",
+    "gender": "male",
+    "name": "Marten",
+    "password": "Allik94=&",
+    "phone": "(203) 487 1629",
+    "photo": "https://uinames.com/api/photos/male/5.jpg",
+    "region": "Estonia",
+    "surname": "Allik",
+    "title": "mr"
+  }, {
+    "age": 28,
+    "birthday": {
+      "dmy": "02/08/1991",
+      "mdy": "08/02/1991",
+      "raw": 681133481
+    },
+    "credit_card": {
+      "expiration": "6/26",
+      "number": "2152-9789-4617-4633",
+      "pin": 2252,
+      "security": 865
+    },
+    "email": "gabi-91@example.com",
+    "gender": "male",
+    "name": "Gabi",
+    "password": "Vernescu91$%",
+    "phone": "(117) 856 5570",
+    "photo": "https://uinames.com/api/photos/male/10.jpg",
+    "region": "Romania",
+    "surname": "Vernescu",
+    "title": "mr"
+  },
+  {
+    "age": 36,
+    "birthday": {
+      "dmy": "29/09/1983",
+      "mdy": "09/29/1983",
+      "raw": 433681170
+    },
+    "credit_card": {
+      "expiration": "10/23",
+      "number": "3946-6104-1816-2461",
+      "pin": 1798,
+      "security": 667
+    },
+    "email": "pamfil-83@example.com",
+    "gender": "male",
+    "name": "Pamfil",
+    "password": "Negoiță83)^",
+    "phone": "(142) 335 2266",
+    "photo": "https://uinames.com/api/photos/male/9.jpg",
+    "region": "Romania",
+    "surname": "Negoiță",
+    "title": "mr"
+  },
+  {
+    "age": 30,
+    "birthday": {
+      "dmy": "07/04/1989",
+      "mdy": "04/07/1989",
+      "raw": 607952901
+    },
+    "credit_card": {
+      "expiration": "9/20",
+      "number": "7620-9816-6414-6647",
+      "pin": 4643,
+      "security": 283
+    },
+    "email": "maham_89@example.com",
+    "gender": "female",
+    "name": "Maham",
+    "password": "Durrani89=(",
+    "phone": "(591) 755 2715",
+    "photo": "https://uinames.com/api/photos/female/19.jpg",
+    "region": "Pakistan",
+    "surname": "Durrani",
+    "title": "mrs"
+  },
+  {
+    "age": 23,
+    "birthday": {
+      "dmy": "23/03/1996",
+      "mdy": "03/23/1996",
+      "raw": 827560522
+    },
+    "credit_card": {
+      "expiration": "12/24",
+      "number": "6749-1071-9736-8547",
+      "pin": 3468,
+      "security": 625
+    },
+    "email": "júlia_lima@example.com",
+    "gender": "female",
+    "name": "Júlia",
+    "password": "Lima96{",
+    "phone": "(464) 899 3369",
+    "photo": "https://uinames.com/api/photos/female/8.jpg",
+    "region": "Brazil",
+    "surname": "Lima",
+    "title": "ms"
+  },
+  {
+    "age": 24,
+    "birthday": {
+      "dmy": "13/04/1995",
+      "mdy": "04/13/1995",
+      "raw": 797804338
+    },
+    "credit_card": {
+      "expiration": "4/23",
+      "number": "8902-8291-5245-8117",
+      "pin": 6798,
+      "security": 376
+    },
+    "email": "pereide@example.com",
+    "gender": "male",
+    "name": "Per",
+    "password": "Eide95{$",
+    "phone": "(617) 183 6698",
+    "photo": "https://uinames.com/api/photos/male/17.jpg",
+    "region": "Norway",
+    "surname": "Eide",
+    "title": "mr"
+  },
+  {
+    "age": 25,
+    "birthday": {
+      "dmy": "20/08/1994",
+      "mdy": "08/20/1994",
+      "raw": 777439907
+    },
+    "credit_card": {
+      "expiration": "12/21",
+      "number": "9674-3092-8767-3901",
+      "pin": 6541,
+      "security": 354
+    },
+    "email": "marten-allik@example.com",
+    "gender": "male",
+    "name": "Marten",
+    "password": "Allik94=&",
+    "phone": "(203) 487 1629",
+    "photo": "https://uinames.com/api/photos/male/5.jpg",
+    "region": "Estonia",
+    "surname": "Allik",
+    "title": "mr"
+  }]
