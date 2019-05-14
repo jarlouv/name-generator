@@ -32,7 +32,8 @@
               }
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "src/theme.less"
             ],
             "scripts": []
           },
@@ -88,7 +89,8 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "src/theme.less"
             ],
             "scripts": [],
             "assets": [

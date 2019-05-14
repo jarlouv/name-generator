@@ -1,3 +1,30 @@
-<p>
-  profile works!
-</p>
+<div class="card-content">
+  <nz-card nzHoverable class="card" >
+    <nz-skeleton [nzActive]="true" [nzLoading]="loading" [nzAvatar]="{ size: 'large' }">
+      <nz-card-meta
+        [nzAvatar]="avatarTemplate"
+        [nzTitle]="nameTemplate"
+        [nzDescription]="descriptionTemplate">
+        
+      </nz-card-meta>
+    </nz-skeleton>
+  </nz-card>
+</div>
+
+<ng-template #avatarTemplate>
+  <nz-avatar *ngIf="hasKey('photo')" nzSrc="{{profileExt.photo}}" [nzSize]="64"></nz-avatar>
+</ng-template>
+<ng-template #nameTemplate>
+  <div nz-row *ngIf="hasKey('surname')">
+    <div nz-col nzSpan="24">{{profileExt.surname + ', ' +  profileExt.name}} </div>
+  </div>
+</ng-template>
+
+<ng-template #descriptionTemplate>
+  <div nz-row *ngIf="hasKey('birthday')">
+    <div nz-col nzSpan="24"><b>Birthday:</b> {{profileExt.birthday.mdy | date:'longDate'}}  </div>
+  </div>
+  <div nz-row *ngIf="hasKey('phone')">
+    <div nz-col nzSpan="24"><b>Phone: </b> {{profileExt.phone}}</div>
+  </div>
+</ng-template>

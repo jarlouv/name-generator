@@ -1,8 +1,53 @@
-<form nz-form [nzLayout]="'inline'" (ngSubmit)="submitForm()">
+<form nz-form [formGroup]="submissionForm" >
   <nz-form-item>
-    <nz-form-label [nzSpan]="6" nzFor="email">E-mail</nz-form-label>
-    <nz-form-control [nzSpan]="14">
-      <input nz-input name="email" type="email" id="email">
+    <nz-form-label [nzSpan]="24" nzFor="region">Region</nz-form-label>
+    <nz-form-control [nzSpan]="24">
+      <nz-select
+        id="region"
+        formControlName="region"
+        nzPlaceHolder="Select region">
+        <nz-option *ngFor="let region of regions" nzValue="{{region}}" nzLabel="{{region}}"></nz-option>
+      </nz-select>
     </nz-form-control>
-  </nz-form-item >
+  </nz-form-item>
+
+  <nz-form-item>
+    <div nz-row>
+        <nz-form-label nz-col nzSpan="24" nzFor="gender">Gender</nz-form-label>
+        <nz-form-control nz-col nzSpan="24">
+          <nz-select
+            id="gender"
+            formControlName="gender"
+            nzPlaceHolder="Select gender">
+            <nz-option *ngFor="let gender of genders" nzValue="{{gender}}" nzLabel="{{gender}}"></nz-option>
+          </nz-select>
+        </nz-form-control>
+    </div>
+    
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="24" nzFor="num-names">Number of Names</nz-form-label>
+    <nz-form-control [nzSpan]="24">
+      <nz-input-number id="num-names" 
+        formControlName="numNames" 
+        [nzMin]="1"
+        [nzMax]="12"
+        [nzStep]="1"></nz-input-number>
+    </nz-form-control>
+  </nz-form-item>
+  <div class="form-buttons">
+    <nz-form-item class="item-button">
+      <nz-form-control class="button-control">
+        <button nz-button nzType="primary" (click)="submitForm()">Generate Names</button>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item class="item-button">
+      <nz-form-control class="button-control">
+        <button nz-button nzType="default" (click)="clearForm()">Clear</button>
+      </nz-form-control>
+    </nz-form-item>
+  </div>
+
 </form>

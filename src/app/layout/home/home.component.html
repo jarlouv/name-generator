@@ -2,10 +2,13 @@
   <nz-header>
     <app-navbar></app-navbar>
   </nz-header>
-  <nz-content>
-    <div class="content">
-      <app-submission></app-submission>
-    </div>
+  <nz-content class="content">
+    <app-submission (generateNames)="changesInGeneratedNames($event)" (loadingNames)="loadingNames($event)" ></app-submission>
+    <nz-layout class="layout-content">
+      <nz-content class="cards-container">
+        <app-profile *ngFor="let profileExt of profileExts" [profileExt]="profileExt" [loading]="loading" nzSpan="7"></app-profile>
+      </nz-content>
+    </nz-layout>
   </nz-content>
-  <nz-footer>Name Generator ©2019 Implemented By Jarlou Valenzuela</nz-footer>
+  <nz-footer>Name Generator ©2019 Implemented by Jarlou Valenzuela</nz-footer>
 </nz-layout>

@@ -1,15 +1,39 @@
+nz-layout{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.layout-content {
+    float:left;
+    width: calc(100% - 300px);
+}
+
+.content {
+    overflow-y: auto;
+}
+
+.layout{
+    height: 100%;
+}
+
 nz-header{
     position:fixed;
     width: 100%;
     border: 1px solid rgb(235, 237, 240);
     height: 70px;
     padding: 0;
+    z-index: 100;
 }
 
 nz-content{
     padding:30px 30px;
     margin-top: 64px;
-    background:#fff; 
+}
+
+.cards-container {
+    margin-top: 0;
+    padding: 0;
 }
 
 nz-footer{
@@ -19,7 +43,15 @@ nz-footer{
     text-align: center;
 }
 
-.content{
-    padding: 24px; 
-    min-height: 500px;
+app-profile{
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+
+app-submission{
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    width: 300px;
 }
